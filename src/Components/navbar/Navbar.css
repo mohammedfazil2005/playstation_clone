@@ -1,0 +1,46 @@
+.nav-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-first{
+    display: flex;
+    justify-content: right;
+    background-color: black;
+   padding: 0px 20px;
+
+}
+
+.nav-first img{
+    width: 45px;
+}
+.nav-second {
+    height: 140px;
+    padding: 0px 10px;
+}
+.nav-ul li a{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+
+.nav-second img{
+    width: 50px;
+}
+
+.nav-second form button{
+    background-color: dodgerblue;
+    width: 90px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 2px;
+
+}
+
+.nav-second form i{
+    font-size: 19px;
+    font-weight:bold ;
+}
