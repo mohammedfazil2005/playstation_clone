@@ -1,0 +1,96 @@
+.latest-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    margin: 0px 60px;
+    margin-top: 100px;
+}
+.lat-parent{
+    background: linear-gradient(black, rgba(0, 0, 0, 0.921));
+    margin-top: 140px;
+}
+
+.latest-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 40px;
+}
+
+.latest-heading h1{
+    font-weight: 400;
+}
+
+.latest-heading div{
+    margin-top: 30px;
+}
+
+.latest-heading div button{
+    background-color: rgb(18, 12, 12);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+.latest-games{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.latest-games div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.latest-games div img{
+    width: 200px;
+    border-radius: 16px;
+    height: 200px;
+
+    cursor: pointer;
+}
+
+.latest-games div p{
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.latest-games div img:hover{
+   box-shadow: 0px 0px 4px dodgerblue;
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width:549px) {
+    .latest-parent{
+        margin: 0px;
+    }
+  .latest-heading{
+    text-align: center;
+  }
+ 
+
+}
+
+@media screen and (max-width:442px) {
+    .latest-games div img{
+        width: 160px;
+        border-radius: 16px;
+        height: 160px;
+        cursor: pointer;
+    }
+    .latest-games div p{
+        text-align: center;
+    }
+
+}
