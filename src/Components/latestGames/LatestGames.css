@@ -1,3 +1,8 @@
+.lat-parent{
+    background: linear-gradient(black, rgba(0, 0, 0, 0.921));
+    margin-top: 140px;
+}
+
 .latest-parent{
     display: flex;
     flex-direction: column;
@@ -5,10 +10,7 @@
    align-items: center;
     margin: 0px 60px;
     margin-top: 100px;
-}
-.lat-parent{
-    background: linear-gradient(black, rgba(0, 0, 0, 0.921));
-    margin-top: 140px;
+    
 }
 
 .latest-heading{
@@ -41,6 +43,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 23px;
+    margin-bottom: 90px;
 }
 
 .latest-games div{
@@ -53,8 +56,8 @@
 .latest-games div img{
     width: 200px;
     border-radius: 16px;
-    height: 200px;
-
+    height: 220px;
+    transition: 0.1S;
     cursor: pointer;
 }
 
@@ -66,8 +69,8 @@
 
 
 .latest-games div img:hover{
-   box-shadow: 0px 0px 4px dodgerblue;
-    transform: scale(1.1);
+   box-shadow: 0px 8px 4px rgba(211, 211, 211, 0.389);
+    transform: translateY(-10px);
 }
 
 

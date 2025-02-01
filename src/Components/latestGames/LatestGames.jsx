@@ -31,10 +31,10 @@ function LatestGames() {
                 <button onClick={()=>setButtonGame("Coming soon")}  style={buttonGame=="Coming soon"?{border:"1px solid dodgerBlue"}:{border:'none'}}>Coming soon</button>
             </div>
         </div>
-        <div className="latest-games">
+        <div className="latest-games" >
             {game.map((a)=>(
-                  <div>
-                  <img src={a.gUrl} alt="" />
+                  <div data-aos="fade-up">
+                  <img src={a.gUrl} alt=""  />
                   <p>{a.gName}</p>
               </div>
             ))}

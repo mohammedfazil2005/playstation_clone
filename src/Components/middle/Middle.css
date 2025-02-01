@@ -33,6 +33,9 @@
     color: white;
     font-weight: 600;
 }
+.middle-left div button:hover{
+    opacity: 0.7;
+}
 
 .middle-right{
     margin: 0px 30px;
@@ -89,24 +92,39 @@
     border-radius: 50%;
     z-index: 1;
     color: white;
+    cursor: pointer;
 }
-
+.scroll-button-div i:active{
+    transform: scale(1.1);
+}
 
 @media screen and (max-width:1136px) {
     .middle{
        flex-direction: column-reverse;
        justify-content: center;
-       align-items: center;
+       margin: 0px 20px;
+       margin-top: 40px;
+    }
+    .middle-right{
+        margin: 0px;
+        
     }
     .middle-right img{
         width: 100%;
     }
     .middle-left{
-        margin: 10px;
+        margin: 0px;
     }
     
     .boxes-middle-div{
         margin: 0px;
+        margin-top: 50px;
+    }
+
+    .scroll-button-div{
+        margin: 0px;
+        margin-top: -80px;
+        justify-content: space-between;
     }
 
     

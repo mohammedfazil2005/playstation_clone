@@ -1,0 +1,71 @@
+.anniversary-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 140px;
+  gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.anniversary-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.anniversary-left h1{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.anniversary-left p{
+    width: 100%;
+}
+.anniversary-left div{
+    display: flex;
+    gap: 10px;
+}
+.anniversary-left div button{
+    padding: 9px;
+    border-radius: 17px;
+    background-color: rgb(6, 95, 184);
+    color: white;
+    border: none;
+}
+.anniversary-left div button:hover{
+    background-color: dodgerblue;
+}
+.anniversary-right img{
+    width: 400px;
+}
+
+@media screen and (max-width:1092px) {
+    .anniversary-parent{
+        margin: 79px 60px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .anniversary-right img{
+        width: 400px;
+    }
+    .anniversary-left{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:471px) {
+    .anniversary-parent{
+        margin: 79px 10px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .anniversary-right img{
+        width: 300px;
+    }
+    .anniversary-left{
+        align-items: center;
+        text-align: center;
+    }
+}

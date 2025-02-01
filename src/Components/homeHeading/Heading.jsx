@@ -5,7 +5,7 @@ const Heading = () => {
     <div>
       <div className="header">
         <div className="header-left">
-          <h1>Great games to look forward <br />to in 2025</h1>
+          <h1>Great games to look forward to in 2025 <img src="https://logowik.com/content/uploads/images/playstation-blue4074.logowik.com.webp" alt="" /></h1>
           <p>Discover some of the unmissable titles coming soon to PS5, including spectacular sequels, returning heroes & brand-new adventures.</p>
           <button>See the full list</button>
         </div>

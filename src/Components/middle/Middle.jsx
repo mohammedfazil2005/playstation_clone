@@ -50,10 +50,10 @@ function Middle() {
         </div>
       </div>
 
-      <div className="boxes-middle-div" ref={scrollRef}>
+      <div className="boxes-middle-div" ref={scrollRef} >
         {product.map((a)=>(
               <div onClick={()=>onBoxSelect(a)}>
-              <img src={a.purl} alt="" />
+              <img src={a.purl} alt=""  />
               <p>{a.pname}</p>
           </div>
         ))}

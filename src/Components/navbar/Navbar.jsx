@@ -7,8 +7,8 @@ const Navbar = () => {
             <div className='nav-first'>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmRZTmyBUndIUSOj3e2ppnTIjT38QyorgwWQ&s" alt="" />
             </div>
-            <div className='nav-second'>
-                <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <div className='nav-second '>
+                <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#"><img src="https://logowik.com/content/uploads/images/playstation-blue4074.logowik.com.webp" alt="" /></a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

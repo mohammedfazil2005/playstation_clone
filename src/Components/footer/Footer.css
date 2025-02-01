@@ -1,0 +1,59 @@
+.fo-parent{
+    background:rgb(2, 77, 151);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0px 60px;
+    color: white;
+}
+footer p{
+    margin: 0px;
+}
+.heading-footer{
+    display: flex;
+    margin-top: 30px;
+}
+.heading-footer img{
+    width: 200px;
+}
+
+.policy{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.policy div p{
+    font-weight: 300;
+    margin: 3px 0px;
+}
+.sony-parent{
+    display: flex;
+    flex-direction: column;
+}
+.sony-parent img{
+    width: 200px;
+}
+.sony-parent p{
+    font-weight: 300;
+    margin: 3px 0px;
+}
+
+.final-footer{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+@media screen and (max-width:718px) {
+    .policy{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .policy div{
+        border-bottom: 1px solid white;
+    }
+    .final-footer {
+        flex-direction: column;
+    }
+}

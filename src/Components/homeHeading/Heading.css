@@ -7,18 +7,37 @@
 .header-left{
     display: flex;
     flex-direction: column;
-    margin: 0px 80px;
+    margin: 0px 90px;
     justify-content: center;
     text-align: justify;
     gap: 10px;
 }
 .header-left h1{
-    font-weight:400;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    font-size: 40px;
 
+}
+.header-left img{
+    width: 40px;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rotate {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(80deg);
+    }
 }
 .header-left p{
     font-weight: 400;
-    width: 300px;
+    width: 400px;
+    letter-spacing: 1px;
 }
 .header-left button{
     width: 130px;
@@ -26,12 +45,20 @@
     background-color: rgb(11, 84, 156);
     color: white;
     border: none;
-    padding: 3px;
+    padding: 8px;
+}
+.header-left button:hover{
+    background-color:dodgerblue;
 }
 
 .header-right img{
     width: 800px;
+    cursor: pointer;
+    transition: 1s;
 
+}
+.header-right img:hover{
+    transform: translateX(20px);
 }
 
 .boxes-header{
@@ -67,12 +94,15 @@
         
     }
     .header-right img{
-        width: 100%;
+        width: 90%;
     }
     .header-left{
         margin: 10px;
     }
     .boxes-header{
         margin: 0px;
+    }
+    .header-left p{
+        width: 100%;
     }
 }

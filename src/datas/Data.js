@@ -73,8 +73,15 @@ const comingSoonGames=[
 ]
 
 
+const productsImages=[
+    {pName:'PlayStation™™™ Heritage Zip Up Hoodie',pUrl:'https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-ps-heritage-zipup-hoodie-image-block-01-en-08dec23?$1600px--t$'},
+    {pName:'PlayStation™™™ Logo Tee',pUrl:'https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-ps-logo-tshirt-image-block-01-en-08dec23?$1600px--t$'},
+    {pName:'PlayStation™™™ Brand Hat',pUrl:'https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-ps-brand-hat-image-block-01-en-08dec23?$1600px--t$'},
+    {pName:'PlayStation™™™ Heritage Mug',pUrl:'https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-ps-heritage-mug-image-block-01-en-08dec23?$1600px--t$'},
+]
 
-export {products,NewGames,comingSoonGames}
+
+export {products,NewGames,comingSoonGames,productsImages}
 
 
 
