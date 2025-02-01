@@ -1,27 +1,71 @@
-
-.plus-parent{
+.ps5-pa{
+    background-color: whitesmoke;
+}
+.ps5-parent{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 60px;
+   margin-bottom: 10px;
+   gap: 30px;
+   margin: 0px 30px;
 }
-
-.heading-plus{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.heading-plus img{
-    width: 200px;
-}
-
-.plus-ad-parent{
+.ps5-heading{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.ps5-heading h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.ps5-heading h6{
+    color: gray;
+}
+.ps5-heading p{
+    font-size: 10px;
+}
+
+.ps5-ad-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 20px;
+    align-items: center;
 
 }
 
+.ps5-ad-parent div video{
+    width: 100%;
+    height: 400px;
+}
+
+.ps5-details{
+    display: flex;
+    gap: 20px;
+}
+
+.ps5-details div{
+    display: flex;
+    flex-direction: column;
+ text-align: justify;
+   
+}
+
+.ps5-details div h2{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.ps5-details div p{
+    font-weight: 300;
+    width: 80%;
+}
+
+.ps5-details div img{
+    width: 90px;
+}
