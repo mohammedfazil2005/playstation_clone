@@ -16,12 +16,19 @@ const App = () => {
     <div>
       <Navbar />
       <Heading />
+      <hr />
       <Middle />
+     
       <LatestGames />
+      <hr />
       <PsPlus/>
+      <hr />
       <Anniversary/>
+      <hr />
       <Store/>
+      <hr />
       <Products/>
+      <hr />
       <SocialMedia/>
       <Footer/>
     </div>

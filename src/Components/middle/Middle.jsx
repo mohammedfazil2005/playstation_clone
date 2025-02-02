@@ -37,7 +37,7 @@ function Middle() {
     <div>
       <div className="middle">
         <div className="middle-left">
-            <h1>Discover all PS5 <br />consoles and <br /> accessories</h1>
+            <h1>Discover all PS5 consoles and  accessories</h1>
             <h6>{image.pname}</h6>
             <p>{image.desc}</p>
             <div>

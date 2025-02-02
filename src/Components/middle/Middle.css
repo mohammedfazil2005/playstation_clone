@@ -117,16 +117,24 @@
     }
     
     .boxes-middle-div{
-        margin: 0px;
+        margin: 25px;
         margin-top: 50px;
+        
     }
 
     .scroll-button-div{
         margin: 0px;
-        margin-top: -80px;
+        margin-top: -180px;
         justify-content: space-between;
     }
 
     
     
+}
+
+@media screen and (max-width:575px) {
+    .middle-left h1{
+        font-size: 30px;
+       
+    }
 }

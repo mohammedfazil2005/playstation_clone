@@ -16,7 +16,7 @@ function PsPlus() {
                     <video src={ps5Adp} autoPlay loop muted></video>
                     <div className='ps5-details'>
                         <div>
-                            <img src="https://www.beamng.com/attachments/upload_2023-10-22_4-32-3-png.1072323/" alt="" />
+                            <img src="https://media-hosting.imagekit.io//5dbfc74e6d5d439a/upload_2023-10-22_4-32-3-removebg-preview.png?Expires=1833121356&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=VQXXFOl4aZM7GiT5AAB0YjU4Z1whBxyRR4bVrE7wiwTz2m66HCvqeUqws09n5cgpJiaMIYboUkmRh~AP7cFrTtb7c7DBKGke73QWnxTVxttUrMDyIVAqtjga~nK2OdyWEnU~V1rAAR~Dm3lpGZmUyio5W3~dRsZvd9678N9NQGRMdjWBPv8pUIn-B8kWJs0NR0KDN8qJf~4ONd9ZqMsul6HMwuBkWMtOlF5CbUac5fKP5OtKjku0BDY~u1sohXNKZpMLjUtsNymXHPkQfsH~3cJQmBx2iGuNKP4f6AkIUxcME14HFk7l83ckj1VOzG2eRZLtgmkE8NzBd72aeJhS7g__" alt="" />
                         </div>
                         <div>
                         <h2>Adaptive Triggers1</h2>

@@ -47,7 +47,6 @@
 .ps5-details{
     display: flex;
     justify-content: space-between;
-    margin-left: 40px;
     gap: 10px;
 
 }
@@ -62,17 +61,18 @@
 .ps5-details div h2{
     font-weight: 300;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: dodgerblue;
 }
 
 .ps5-details div p{
     font-weight: 300;
-    width: 80%;
+    width: 85%;
 }
 
 .ps5-details div img{
     width: 90px;
+    margin-left: 30px;
 }
 
 
@@ -96,5 +96,33 @@
         width: 100%;
         font-size: 12px;
     }
+    .ps5-details div img{
+        margin: 0px;
+    }
     
+}
+
+@media screen and (max-width:495px) {
+    .ps5-heading h1{
+        font-size: 25px;
+    }
+    .ps5-parent{
+        margin: 10px;
+    }
+    .ps5-heading{
+        margin-top: 20px;
+    }
+    .ps5-ad-parent{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:435px) {
+   
+    .ps5-heading h1{
+        font-size: 23px;
+    }
+    .ps5-heading h6{
+        font-size: 15px;
+    }
 }

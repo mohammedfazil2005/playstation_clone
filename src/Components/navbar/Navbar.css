@@ -24,6 +24,9 @@
     font-size: 12px;
     letter-spacing: 1px;
 }
+.nav-ul li a:hover{
+    border-bottom: 1px solid dodgerblue;
+}
 
 
 .nav-second img{

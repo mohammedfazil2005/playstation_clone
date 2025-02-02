@@ -30,6 +30,9 @@
     color: white;
     border: none;
 }
+.store-left button:hover{
+    opacity: 0.7;
+}
 
 .store-right img{
     width: 750px;
@@ -43,12 +46,15 @@
     margin-bottom: 70px;
     flex-direction: column-reverse;
  }
+ .store-left h1{
+    text-align: left;
+ }
  .store-right img{
     width: 100%;
  }   
  .store-left{
-    align-items: center;
-    text-align: center;
+   margin-top: 50px;
+    text-align: left;
  }
  .store-left p{
     width: 100%;
